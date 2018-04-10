@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 1200px){
+	#header,#change_header{
+		padding:0 16px;
+	}
+	#hot_searching{
+		padding: 20px 0 0;
+	}
+	#crumb{
+		padding: 62px 20px 0;
+	}
+	#searching_list{
+		width: 96%;
+		margin:0 2%;
+	}
+}
+@media screen and (max-width: 1000px){
+	.o_left a.tjPro,#change_header .o_left button{
+		font-size: 12px;
+	}
+
+
+}
+@media screen and (max-width: 860px){
+	
+	
+}

@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 828px){
+	.o_right{
+		display: none;
+	}
+	#change_header .o_left button{
+		width: 20%;
+	}
+	#change_header .o_left input{
+		width: 80%;
+	}
+	#header .ipTop{
+		display: block;
+	}
+	#header h3{
+		font-size: 0.7em;
+	}
+	#section{
+		padding: 0 20px;
+	}
+	#section .logo{
+		margin:30px 0;
+	}
+	#section input{
+		height: 46px;
+		width: 80%;
+	}
+	#section button{
+		height: 46px;
+		width: 20%;
+		font-size: 16px;
+	}
+	
+	#hot_searching ul.hs_title{
+		width: 70%;
+	}
+	#hot_searching .HS_top{
+		width: 100%;
+	}
+	#advert{padding: 20px 0px 0;}
+	#hot_searching .hot_div{
+		padding: 0 0 20px;
+	}
+	.ip_hidden{
+		display: none;
+	}
+	.am_list h2{
+		font-weight: lighter;
+		font-size: 16px;
+		line-height: 26px;
+	}
+	#advert .advert_main{
+		padding: 20px; 
+	}
+	#hot_searching .hot_div ul li{
+		font-size: 12px;
+	}
+	.index_img{
+		padding: 10px 0;
+	}
+	#change_header{
+		display: none;
+	}
+	#header{
+		display: block;
+	}
+	#crumb{
+		padding: 0 20px;
+	}
+	.ipInput{
+		display: block;
+	}
+	.riAdvert{
+		display: none;
+	}
+	.leProduct{
+		width: 100%;
+		padding: 0 18px;
+	}
+	#searching_list{
+		padding: 20px 0;
+	}
+	#crumb p{
+		display: none;
+	}
+	.chinaSupply{
+		margin: 12px 0 12px 0px;
+	}
+	.pannel .cont{
+		width: 90%;
+	}
+	#reMain .reMcenter{
+		display: none;
+	}
+
+	/*--- details ---*/
+	#proDetails{
+		padding: 20px;
+	}
+	#proDetails .topShow{
+		width: 100%;
+		height: auto;
+	}
+	#proDetails .riShow{
+		width: 100%;
+		padding: 4%;
+	}
+	#proDetails .riShow h3{
+		padding-bottom: 10px;
+	}
+	.coContent p{
+		font-size: 16px;
+	}
+	.coContent .ccImg{
+		width: 16%;
+	}
+	.deShow{
+		padding: 0px;
+	}
+	.deShow ul.de_title{
+		width: 100%;
+	}
+	.deShow .de_div ul{
+		padding-bottom: 20px;
+	}
+	.deShow .de_div{
+		padding: 0px;
+	}
+	.deShow .de_div ul li{
+		width: 33%;
+		font-size: 12px;
+	}
+	.deShow .de_div ul li div{
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+	}
+	.deShow .de_div ul li div img{
+		max-height: 70px;
+		max-width: 70px;
+		line-height: 70px;
+	}
+
+	/*--- noSearch ---*/
+	.ipRemcenter{
+		display: block;
+	}
+	#reMain ul{
+		padding-top: 30px;
+	}
+	#reMain ul li{
+		width: 28%;
+	}
+	#reMain{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 767px){
+	.am_list .rf_title{
+		display: inline-block;
+		padding: 0;
+		width: 100%;
+	}
+	#hot_searching{
+		padding: 20px 20px 0;
+	}
+}
+@media screen and (max-width: 620px){
+	
+}
+@media screen and (max-width: 420px){
+		
+}
+@media screen and (max-width: 340px){
+	#section button{
+		font-size: 14px;
+	}
+	.leProduct .sl_title li,.leProduct ul li span,
+	.chinaSupply{
+		font-size: 12px;
+	}
+	#footer{
+	    padding: 0 20px;
+    	margin: 20px 0 20px;
+	}
+}
+
+
+
