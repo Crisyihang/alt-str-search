@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 @media screen and (max-width: 828px){
+	html{-webkit-tap-highlight-color:none}
+	html{-webkit-tap-highlight-color:transparent;}
+
 	.o_right{
 		display: none;
 	}
@@ -93,7 +96,32 @@
 	#reMain .reMcenter{
 		display: none;
 	}
-
+	.searchTabs{
+		width: 16%;
+		top: 38px;
+		left:22px;
+	}
+	.searchTabslist{
+		left: 20px;
+		top:65px;
+	}
+	.searchTabslist a{
+		height: 32px;
+		line-height: 32px;
+		font-size: 13px;
+	}
+	.searchTabslist{
+		width: 72px;
+	}
+	.ipSearch{
+		width: 16%;
+		top: 18px;
+		left: 4px;
+	}
+	.ipSsT{
+		left: 0px;
+		top: 45px;
+	}
 	/*--- details ---*/
 	#proDetails{
 		padding: 20px;

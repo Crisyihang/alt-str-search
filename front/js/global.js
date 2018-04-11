@@ -3,11 +3,13 @@ $(document).ready(function() {
 
 	var isTouch=false;
 	//遮罩层
-	$('#loginIn,#signUp,.ipTop,#change_header a').bind('click touchend',function(){
+	$('#loginIn,#signUp,.ipTop,#change_header a.loginSign').bind('click touchend',function(e){
+		e.preventDefault();
 		$('.overing').show()
 		$('.pannel').show()
 	});
-	$('.close').bind('click touchend',function(){
+	$('.close').bind('click touchend',function(e){
+		e.preventDefault();
 		$('.overing').hide()
 		$('.pannel').hide()
 	});
