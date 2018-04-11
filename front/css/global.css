@@ -40,6 +40,7 @@ a:hover{color:#079df2;}
 .index_center{
 	max-width:654px;
 	margin: 0 auto;
+	position: relative;
 }
 .btnBlue{
 	background-color: #079df2;
@@ -48,6 +49,67 @@ a:hover{color:#079df2;}
 	background-color:#f90;
 }
 /* ----- index css start -----*/
+.BcarBrand{
+	width: 100%;
+	text-align: center;
+}
+.carBrand{
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    box-sizing: content-box;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 4px;
+    text-align: center;
+    width: 30px;
+    transition: all 0.5s ease 0s; 
+}
+.carBrand:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,.2)
+}
+.carBrand img{
+	max-height: 30px;
+    max-width: 30px;
+    vertical-align: middle;
+    line-height: 30px;
+    height: auto;
+}
+.searchTabs{
+	background: url('../img/bcBottom.png') no-repeat right 4px;
+    color: #999;
+    cursor: pointer;
+    font-size: 13px;
+    height: 13px;
+    left: 8px;
+    line-height: 13px;
+    position: absolute;
+    top: 14px;
+    width: 8%;
+    z-index: 10;
+}
+.searchTabslist{
+	background: #fff;
+    border: 1px solid #079df2;
+    border-top: none;
+    display: none;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    top: 39px;
+    width: 66px;
+    z-index: 666;
+}
+.searchTabslist a{
+	display: block;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+}
+.searchTabslist a.cur,.searchTabslist a:hover{
+	background-color: #f5f5f5;
+}
 .overing{
 	height: 100%;
 	z-index: 20;
@@ -169,7 +231,7 @@ a:hover{color:#079df2;}
 	height: 40px;
 	border: 1px solid #dcdcdc;
 	font-size:16px;
-	padding:8px 8px;
+	padding:8px 8px 8px 76px;
 	vertical-align: top;
 	border-right: 0;
 }
@@ -241,8 +303,6 @@ a:hover{color:#079df2;}
 #hot_searching .hot_div ul li{
 	float: left;
 	width: 20%;
-	height: 20px;
-	line-height: 20px;
 	font-size: 14px;
 	color: #414141;
 	margin-top: 20px;
@@ -656,8 +716,8 @@ a:hover{color:#079df2;}
 .deShow ul.de_title{
 	float: left;
 	width: 46%;
-	line-height: 35px;
-	height: 36px;
+	line-height: 49px;
+	height: 50px;
 	text-align: center;
 	border: 1px solid #079df2;
 	border-right: 0;
@@ -668,7 +728,7 @@ a:hover{color:#079df2;}
 	float: left;
 	width: 20%;
 	cursor: pointer;
-	font-size: 14px;
+	font-size: 15px;
 }
 .deShow ul.de_title li:last-child{
 	border-right: 1px solid #079df2;
@@ -698,7 +758,7 @@ a:hover{color:#079df2;}
 	margin-top: 20px;
 	font-size: 14px;
 }
-.deShow .de_div ul li div{
+.deShow .de_div ul li div.proImg{
     border: 1px solid #d2d2d2;
     border-radius: 0;
     box-sizing: content-box;
@@ -710,7 +770,7 @@ a:hover{color:#079df2;}
     text-align: center;
     width: 105px;
 }
-.deShow .de_div ul li div img{
+.deShow .de_div ul li div.proImg img{
 	max-height: 105px;
     max-width: 105px;
     vertical-align: middle;

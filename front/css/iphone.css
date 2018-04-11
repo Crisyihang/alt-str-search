@@ -121,6 +121,9 @@
 	.deShow ul.de_title{
 		width: 100%;
 	}
+	.deShow ul.de_title li{
+		font-size: 12px;
+	}
 	.deShow .de_div ul{
 		padding-bottom: 20px;
 	}
@@ -131,12 +134,12 @@
 		width: 33%;
 		font-size: 12px;
 	}
-	.deShow .de_div ul li div{
+	.deShow .de_div ul li div.proImg{
 		width: 70px;
 		height: 70px;
 		line-height: 70px;
 	}
-	.deShow .de_div ul li div img{
+	.deShow .de_div ul li div.proImg img{
 		max-height: 70px;
 		max-width: 70px;
 		line-height: 70px;
